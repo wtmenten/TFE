@@ -4,17 +4,17 @@
 
 Essentially this mod overrides the spawn configs of locations and bot generation during a raid if certain conditions are met in order to create consistent map-scenarios, like for story quests.
 
-some of this has been proven/POCd piggybacking Lua's SpawnRework and Fin's AI BotGeneration:
+some of this has been proven/POCd by piggybacking Lua's SpawnRework and Fin's AI BotGeneration:
 --	faction (role) alliances
 - made usec and bears separate roles.
 -  made defualt scavs (assualt) friendly to one pmc role.
     - other scav roles (*follower, raiders,etc) were still hostile
 
-Things i know are possible via other mods:
+Things I know are possible via other mods:
 - custom quest framework (Andruis)
 - custom bot loadouts (Fin)
 - spawn config and some custom spawn points (Lua)
-- Audio replacement in the client (Fox's .dlls)
+- Audio replacement in the client (Fox's .dlls), to add [custom boss_faction_follower voicelines](Voicelines_script.md)
 
 Core aspects which need work:
 - Conditional Map-Scenario Framework:
@@ -74,7 +74,7 @@ Scenario/spawn/bot modification attributes:
 
 
 
-The collapse of the state at the end of the Contract Wars left a power vaccum in Tarkov. The local bosses, as well as outside powers, are now vying for control of zones within the region. Will you escape from Tarkov, or will you succumb to that same lust for power?
+The collapse of the state at the end of the Contract Wars left a power vacuum in Tarkov. The local bosses, as well as outside powers, are now vying for control of zones within the region. Will you escape from Tarkov, or will you succumb to that same lust for power?
 
 The story centers around two main paths. The players escape, and the faction dynamics within the zone.
 
@@ -94,7 +94,7 @@ Starting at the end of the contract Wars all pmc faction members are stranded in
 
 Lore: Tactical Nukes and emp strikes in the area have knocked out all current outside connections and communications. Maybe a broader war is also now going on TBD.
 
-While the war is over, Pmc faction members still hold thier old allegiances.
+While the war is over, Pmc faction members still hold their old allegiances.
 
 There is very little civilian activity across the region, and crime bosses have yet to establish themselves.
 
@@ -168,7 +168,7 @@ How about we stir some shit up. If we can start drama between reshala and the ot
 Dress up as a local and go kill Reshala's brother when he's around. That will really give Reshala something to be mad about...
 
 ```
-- TLDR: Assasinate Reshala's little brother at the dorms - as a scav, or as pmc while wearing a scav vest, balaclava, and ushanka hat. other scavs will not interfere.
+- TLDR: Assassinate Reshala's little brother at the dorms - as a scav, or as pmc while wearing a scav vest, balaclava, and ushanka hat. other scavs will not interfere.
 - Reshala's brother [Shturman skin, no guards, replaces reshala spawn %75 chance, ai_easy, behavior: reshala?]
 
 

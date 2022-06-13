@@ -87,6 +87,11 @@ Boss_names: Tagilla, Sanitar, Reshala, Gluhar, Killa, Shturman
 
 - [goodwork, ontheback] hah, nice shooting.
 
+## bad player scav voicelines
+
+maybe at low rep and if your doing the boss questline, replace some scav callouts [enemy_\*, ambush, fight\*] 
+with ones that mention you by your boss name
+
 ## russian-english voiceline versions *?if seen and usec or config enabled?*
 
  - eg. enemy_contact, mutter, enemy_usec, fight, fight_good, fight_bad, ontheback, goodwork

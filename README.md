@@ -4,10 +4,13 @@
 
 Essentially this mod overrides the spawn configs of locations and bot generation during a raid if certain conditions are met in order to create consistent map-scenarios, like for story quests.
 
-Mod is intended to be used with Single Player Overhaul/Path-to-tarkov but would also be standalone.
+Then uses this to create a storyline around the factions of Tarkov to make the world dynamic/reactive to player invovlement.
 
-read the [storyline here](storyline.md)
+Mod is intended to be used with [Single-Player-Overhaul](https://github.com/kobrakon/SPO_DEV)/Path-to-Tarkov but would also be standalone.
 
+### Checkout the current [storyline here](storyline.md)
+
+## Mod Specification Stuff 
 some of this has been proven/POCd by piggybacking Lua's SpawnRework and Fin's AI BotGeneration:
 -	faction(ai_role) alliances
 - made usec and bears separate roles.
@@ -22,11 +25,12 @@ Things I know are possible via other mods:
 
 Core aspects which need work:
 - Conditional Map-Scenario Framework:
+
   a conditions processor based on json spec files for validating abstract conditions against the game/player state
-  - used with bot generation
+  - when used with bot generation
     - full-replacement or merging of bot inventories
     - full-replacement or merging of bot behaviors
-  - used with map/spawn generation
+  - when used with map/spawn generation
     - full-replacement or merging of spawn wave properties
       - zone,time/wave,bot_types_quantities
 

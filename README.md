@@ -2,19 +2,22 @@
 # Tarkov Factions Expanded Mod (TFE)
 
 
-Essentially this mod overrides the spawn configs of locations and bot generation during a raid if certain conditions are met in order to create consistent map-scenarios, like for story quests.
+Essentially this mod overrides the spawn configs of locations and bot generation during a raid 
+if certain conditions are met in order to create consistent map-scenarios, like for story quests.
 
-Then uses this to create a storyline around the factions of Tarkov to make the world dynamic/reactive to player invovlement.
+Then uses this to create a storyline around the factions of Tarkov to make the world 
+dynamic/reactive to player involvement.
 
-Mod is intended to be used with [Single-Player-Overhaul](https://github.com/kobrakon/SPO_DEV)/Path-to-Tarkov but would also be standalone.
+Mod is intended to be used with [Single-Player-Overhaul](https://github.com/kobrakon/SPO_DEV) 
+& Path-to-Tarkov but could also support standalone.
 
-### Checkout the current [storyline here](storyline.md)
+### Checkout the current [storyline spec here](storyline.md)
 
 ## Mod Specification Stuff 
 some of this has been proven/POCd by piggybacking Lua's SpawnRework and Fin's AI BotGeneration:
 -	faction(ai_role) alliances
 - made usec and bears separate roles.
--  made defualt scavs (assualt) friendly to one pmc role.
+-  made default scavs (assault) friendly to one pmc role.
     - other scav roles (*follower, raiders,etc) were still hostile
 
 Things I know are possible via other mods:
@@ -37,7 +40,7 @@ Core aspects which need work:
 
 Unproven aspects:
 - getting bots to follow player at raid start.
-- modifying/adding bot voices
+- adding/modifying bot voices
 - placing loot in specific containers at raid start
 - TBD
 

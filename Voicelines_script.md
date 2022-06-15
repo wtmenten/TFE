@@ -63,7 +63,7 @@ some less useful ones:
 - kill_knife
 
 ## Boss follower voicelines *scav faction callouts*
-Boss_names: Tagilla, Sanitar, Reshala, Gluhar, Killa, Shturman
+Boss_names: Tagilla, Sanitar, Reshala, Gluhar, Killa, Shturman,
 
 - [enemy_\*, ambush, fight\*] *Boss_Name* is *gonna fuck you up/coming*
 
